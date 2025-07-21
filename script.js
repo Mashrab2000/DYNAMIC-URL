@@ -24,3 +24,9 @@ table.innerHTML = ""
         })
   } 
 })
+
+input.addEventListener("keydown", (e) => {
+  if (e.key == "Enter") {
+    btn.click();
+  }
+});
